@@ -10,7 +10,7 @@ export function App() {
         <Header />
       </header>
       <main>
-        <Form />
+        <Form />  
         <Image />
       </main>
     </>

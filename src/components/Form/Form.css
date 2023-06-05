@@ -52,43 +52,6 @@ flex-grow: 0;
   color: var(--color-span);
 }
 
-.labels-input {
-  font-family: 'Titillium Web';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 21px;
-  
-  display: flex;
-  margin-left: 0.4rem;
-
-  margin-bottom: 0.5rem;
-
-  color: var(--color-label);
-}
-
-input {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0.3;
-  gap: 10px;
-
-  width: 384px;
-  height: 53px;
-  border: none;
-
-  background: var(--color-white);
-
-  border: 1px solid var(--color-border);
-  border-radius: 4px;
-
-}
-
-input:focus {
-  outline: none;
-}
-
 #span-senha:hover {
   cursor: pointer;
 }
@@ -97,32 +60,13 @@ input:focus {
   cursor: pointer;
 }
 
-input:focus,
-input:hover {
-  cursor: pointer;
-  border: 1px solid var(--color-spass-purble);
-}
-
 button:hover {
   background-color: #9F67FF;
   cursor: pointer;
 }
 
-.inputs {
-  margin-bottom: 1rem;
-}
-
 .esq-pass {
   float: right;
-}
-
-.esq-pass > span {
-  font-family: 'Titillium Web';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-
-  color: var(--color-spass-purble);
 }
 
 .forms-data {
